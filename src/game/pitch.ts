@@ -1,4 +1,5 @@
-const NOTES = ['C', 'D', 'E', 'F', 'G', 'A', 'B'] as const;
+// All 12 chromatic notes (using flat notation to avoid # in identifiers)
+const NOTES = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'] as const;
 
 export type HigherLowerGuess = 'higher' | 'lower';
 
